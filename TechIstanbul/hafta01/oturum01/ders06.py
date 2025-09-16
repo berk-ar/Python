@@ -1,0 +1,5 @@
+print("benim adim: Berk")
+print("benim soyadim: Ar")
+print("yasim: ", 25)
+print("kursa katilma durumum: ", True)
+print("kursa katilma oranim: ", 0.95)
