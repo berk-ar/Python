@@ -1,0 +1,6 @@
+print("berk", "kartal")
+print(help(len))
+print("berk","kartal", sep="\t")
+print("berk","kartal", sep="-----")
+print("berk","kartal", sep="-----", end="++++\n")
+print("berk","kartal", sep="****")
