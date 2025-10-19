@@ -1,0 +1,3 @@
+İsim: Berk
+Yaş: Berk
+Hobiler: Futbol,  Yazılım,  Teknoloji

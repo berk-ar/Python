@@ -12,13 +12,13 @@ print(parsed["isim"])   # Berk
 
 # Dosyaya JSON yazma
 """
-with open("hafta03/oturum02/veri.json", "w", encoding="utf-8") as f:
+with open("veri.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii= False, indent= 2)
 """
 
 # JSON dosyasını okuma
 """
-with open("hafta03/oturum02/veri.json", "r", encoding="utf-8") as f:
+with open("veri.json", "r", encoding="utf-8") as f:
     okuma = json.load(f)
     print(okuma)
 """
