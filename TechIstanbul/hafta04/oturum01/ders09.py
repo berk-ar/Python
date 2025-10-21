@@ -1,0 +1,28 @@
+class Dikdortgen:
+    """Dikdörtgen sınıfı"""
+
+    def __init__(self, uzunluk, genislik):
+        self.uzunluk = uzunluk
+        self.genislik = genislik
+    
+    def alan(self):
+        """Dikdörtgen alanını hesaplar"""
+        return self.uzunluk * self.genislik
+    
+    def cevre(self):
+        """Dikdörtgen çevresini hesaplar"""
+        return 2 * (self.uzunluk + self.genislik)
+    
+    def buyut(self, oran):
+        """Dikdörtgeni büyütür"""
+        self.uzunluk *= oran
+        self. genislik *= oran
+        return f"Yeni boyutlar: {self.uzunluk} x {self.genislik}"
+    
+# Kullanım
+dikdortgen1 = Dikdortgen(5, 3)
+print(f"Alan: {dikdortgen1.alan()}")    # Alan: 15
+print(f"Çevre: {dikdortgen1.cevre()}")  # Çevre: 16
+
+dikdortgen1.buyut(2)
+print(f"Büyütülmüş Alan: {dikdortgen1.alan()}") # Büyütülmüş Alan: 60
