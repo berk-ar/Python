@@ -1,0 +1,16 @@
+python -m venv yeni_ortam_adi
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+.\sanalortam\Scripts\activate
+deactivate => Sanal ortamı sonlandırır
+
+# Kurulumlar
+pip install requests beautifulsoup4 lxml
+pip install selenium
+pip install webdriver-manager
+pip install sqlalchemy
+pip install flask
+
+pip freeze > requirements.txt => Kütüphanelerin dosyaya yazdırılma işlemini yapar
+pip -r install requirements.txt => Kütüphanelerin dosyadan indirilmesini sağlar
