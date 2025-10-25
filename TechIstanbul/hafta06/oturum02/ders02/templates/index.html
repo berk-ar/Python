@@ -1,0 +1,12 @@
+{% if yazilar %}
+    <ul>
+    {% for yazi in yazilar %}
+        <li>
+            <h3>{{ yazi.baslik }}</h3>
+            <p>{{ yazi.icerik }}</p>
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>Henüz yazı yok.</p>
+{% endif %}

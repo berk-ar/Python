@@ -11,6 +11,7 @@ pip install selenium
 pip install webdriver-manager
 pip install sqlalchemy
 pip install flask
+pip install -U Flask-SQLAlchemy => Flask SQLAlchemy kurulumu
 
 pip freeze > requirements.txt => Kütüphanelerin dosyaya yazdırılma işlemini yapar
 pip -r install requirements.txt => Kütüphanelerin dosyadan indirilmesini sağlar
